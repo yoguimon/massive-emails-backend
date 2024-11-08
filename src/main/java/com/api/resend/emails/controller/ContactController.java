@@ -1,6 +1,8 @@
 package com.api.resend.emails.controller;
 
+import com.api.resend.emails.dto.ContactRequest;
 import com.api.resend.emails.models.Contact;
+import com.api.resend.emails.models.User;
 import com.api.resend.emails.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
