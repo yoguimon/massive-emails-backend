@@ -1,5 +1,6 @@
 package com.api.resend.emails.service;
 
+import com.api.resend.emails.dto.DashboardRequest;
 import com.api.resend.emails.dto.EmailRequest;
 import com.api.resend.emails.models.EmailLog;
 import com.api.resend.emails.models.Message;
@@ -17,6 +18,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Service
 @Transactional
@@ -61,5 +63,22 @@ public class EmailService {
                 System.err.println("Error al enviar el correo a " + email + ": " + e.getMessage());
             }
         }
+    }
+    public DashboardRequest getDasboardInformation(){
+        Long nro = (Long) entityManager.createQuery("SELECT COUNT(m) FROM Message m")
+                .getSingleResult();
+        DashboardRequest dashboardRequest = new DashboardRequest();
+        dashboardRequest.setNumber(nro.intValue());
+        String jpql = "SELECT m.subject, m.body, COUNT(r.id) " +
+                "FROM Message m " +
+                "JOIN EmailLog e ON e.message.id = m.id " +
+                "JOIN Recipient r ON r.emailLog.id = e.id " +
+                "GROUP BY m.id " +
+                "ORDER BY m.id DESC";
+        List<Object[]> messages = entityManager.createQuery(jpql)
+                .setMaxResults(3)
+                .getResultList();
+        dashboardRequest.setMessages(messages);
+        return dashboardRequest;
     }
 }
