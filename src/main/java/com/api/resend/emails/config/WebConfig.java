@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addMapping("/**") // Permitir todas las rutas
                 .allowedOrigins("https://massive-emails-frontend.vercel.app") // URL de tu frontend
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
-                .allowedHeaders("*") // Permitir todos los encabezados
+                .allowedHeaders("Authorization", "Content-Type", "Accept", "X-Requested-With") // Encabezados necesarios
                 .allowCredentials(true); // Permitir credenciales si es necesario
     }
 }
