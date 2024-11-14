@@ -1,0 +1,16 @@
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\Application.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\config\WebConfig.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\controller\ContactController.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\controller\EmailController.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\dto\ContactRequest.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\dto\DashboardRequest.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\dto\EmailRequest.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\models\Contact.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\models\EmailLog.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\models\Message.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\models\Recipient.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\models\User.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\repository\ContactRepository.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\service\ContactService.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\service\ContactServiceImp.java
+C:\Disco E\Spring-Boot\Jhonny\resend.emails\src\main\java\com\api\resend\emails\service\EmailService.java
