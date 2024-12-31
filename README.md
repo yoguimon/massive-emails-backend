@@ -1,4 +1,4 @@
-PROYECTO EMAIL MASIVOS
+## PROYECTO EMAIL MASIVOS ##
 
 # Descripción #
 Este proyecto es una aplicación web para la gestión y envío de correos masivos. Permite crear mensajes, seleccionar destinatarios y realizar un seguimiento de los correos enviados. Está desarrollado con una arquitectura backend en Java utilizando Spring Boot y un frontend en Vue.js. 
