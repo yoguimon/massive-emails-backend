@@ -4,9 +4,8 @@
 Este proyecto es una aplicación web para la gestión y envío de correos masivos. Permite crear mensajes, seleccionar destinatarios y realizar un seguimiento de los correos enviados. Está desarrollado con una arquitectura backend en Java utilizando Spring Boot y un frontend en Vue.js. 
 
 Características Principales 
-* Gestión de Mensajes: Crear, editar y visualizar mensajes. 
+* Gestión de Mensajes: Crear y visualizar mensajes. 
 * Selección de Destinatarios: Importar destinatarios desde un archivo, seleccionar de una base de datos o enviar a todos los contactos. 
-* Seguimiento de Correos: Visualizar el estado de los correos enviados. 
 * Dashboard: Información resumida sobre los mensajes y destinatarios. 
 
 # Tecnologías Utilizadas #
