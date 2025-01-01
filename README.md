@@ -50,25 +50,26 @@ Requisitos Previos
 # Instalación #
 
 Backend
-1 Clona el repositorio
+1. Clona el repositorio
 git clone https://github.com/yoguimon/massive-emails-backend
 cd massive-emails-backend
-2 Configura el archivo application.properties con los detalles de tu base de datos.
-====imagen base de datos====
-3 Ejecuta el proyecto
+2. Configura el archivo application.properties con los detalles de tu base de datos.
+Diagrama relacional:
+![dr emails](https://github.com/user-attachments/assets/298803b2-18b3-4935-99a8-5f8a5961056d)
+4. Ejecuta el proyecto
 ./mvnw spring-boot:run
 
 Frontent
-1 Clona el repositorio
+1. Clona el repositorio
 git clone https://github.com/yoguimon/massive-emails-frontend
 cd massive-emails-frontend
-2 npm install
-3 npm run dev
+2. npm install
+3. npm run dev
 
 # Uso #
-1  Accede a la aplicación en el navegador: http://localhost:8080.
-2 Crea un mensaje y selecciona los destinatarios.
-3 Envía el mensaje y visualiza el estado en el dashboard.
+1.  Accede a la aplicación en el navegador: http://localhost:8080.
+2. Crea un mensaje y selecciona los destinatarios.
+3. Envía el mensaje y visualiza el estado en el dashboard.
 
 # API Endpoints #
 Mensajes
@@ -79,7 +80,7 @@ Mensajes
 
 Crud contactos
 * GET /api/contacts
+![contacts](https://github.com/user-attachments/assets/484f26b7-09c0-49a8-89e4-c4403f9ffaea)
 * POST /api/contacts
 * PUT /api/contacts/{id}
 * DELETE /api/contacts/{id}
-![contacts](https://github.com/user-attachments/assets/484f26b7-09c0-49a8-89e4-c4403f9ffaea)
