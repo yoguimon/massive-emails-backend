@@ -1,6 +1,6 @@
-## PROYECTO EMAIL MASIVOS ##
+# PROYECTO EMAIL MASIVOS #
 
-# Descripción #
+## Descripción ##
 Este proyecto es una aplicación web para la gestión y envío de correos masivos. Permite crear mensajes, seleccionar destinatarios y realizar un seguimiento de los correos enviados. Está desarrollado con una arquitectura backend en Java utilizando Spring Boot y un frontend en Vue.js. 
 
 Características Principales 
@@ -8,7 +8,7 @@ Características Principales
 * Selección de Destinatarios: Importar destinatarios desde un archivo, seleccionar de una base de datos o enviar a todos los contactos. 
 * Dashboard: Información resumida sobre los mensajes y destinatarios. 
 
-# Tecnologías Utilizadas #
+## Tecnologías Utilizadas ##
 
 Backend 
 * Java 17 
@@ -25,7 +25,7 @@ Otras Herramientas
 * SweetAlert2 para notificaciones. 
 * Docker para el despliegue. 
 
-# Estructura del Proyecto #
+## Estructura del Proyecto ##
 
 Backend 
 El backend está estructurado siguiendo principios de arquitectura RESTful y diseño SOLID. 
@@ -39,7 +39,7 @@ El frontend está dividido en componentes reutilizables:
 * HeaderComponent: Encabezado principal. 
 * ContentComponent: Área principal para el contenido dinámico. 
 
-# Configuración # 
+## Configuración ## 
 
 Requisitos Previos 
 * JDK 17 
@@ -47,7 +47,7 @@ Requisitos Previos
 * MySQL 
 * Docker (opcional)
 
-# Instalación #
+## Instalación ##
 
 Backend
 1. Clona el repositorio
@@ -66,12 +66,12 @@ cd massive-emails-frontend
 2. npm install
 3. npm run dev
 
-# Uso #
+## Uso ##
 1.  Accede a la aplicación en el navegador: http://localhost:8080.
 2. Crea un mensaje y selecciona los destinatarios.
 3. Envía el mensaje y visualiza el estado en el dashboard.
 
-# API Endpoints #
+## API Endpoints ##
 Mensajes
 * POST /api/emails/send : Enviar mensaje a destinatarios
 ![send email](https://github.com/user-attachments/assets/73c72438-a3a0-4cfa-8f57-139b4f73a990)
@@ -80,7 +80,9 @@ Mensajes
 
 Crud contactos
 * GET /api/contacts
+
 ![contacts](https://github.com/user-attachments/assets/484f26b7-09c0-49a8-89e4-c4403f9ffaea)
+
 * POST /api/contacts
 * PUT /api/contacts/{id}
 * DELETE /api/contacts/{id}
